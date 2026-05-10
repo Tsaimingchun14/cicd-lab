@@ -21,3 +21,6 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+
+// Intentional TypeScript type error for CI testing
+let x: string = 123;
